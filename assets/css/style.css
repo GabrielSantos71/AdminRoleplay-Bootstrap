@@ -10785,7 +10785,7 @@ input[type="button"].btn-block {
   display: block;
   min-height: 1.5rem;
   padding-left: 1.5rem;
-  color-adjust: exact; }
+ }
 
 .custom-control-inline {
   display: inline-flex;
@@ -21162,4 +21162,22 @@ div.tagsinput {
   -webkit-flex-grow: 1;
   flex-grow: 1; }
 
-/*# sourceMappingURL=maps/style.css.map */
+.escolher {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+  padding: 1.5vh;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+.escolher li {
+  color: #ddd;
+  margin-right: 2vh;
+}
+
+.active-op {
+  border-bottom: solid 1px #fff;
+  text-decoration: none !important;
+}
+
